@@ -43,6 +43,8 @@ const Navbar = ({setData,cart}) => {
                 type="text"
                  placeholder='Search Products'
                   /> */}
+
+                  <input type="color"/>
             </form>
 
             <Link to={'/cart'} className="cart">

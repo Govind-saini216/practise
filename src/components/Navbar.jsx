@@ -37,12 +37,12 @@ const Navbar = ({setData,cart}) => {
             // onClick={handleSubmit} 
             onSubmit={handleSubmit}
              className="search-bar">
-                <input 
+                {/* <input 
                 value={searchTerm}
                 onChange={(e)=>setSearchTerm(e.target.value)}
                 type="text"
                  placeholder='Search Products'
-                  />
+                  /> */}
             </form>
 
             <Link to={'/cart'} className="cart">
